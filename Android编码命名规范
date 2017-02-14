@@ -1,3 +1,5 @@
+1、不同代码块用空格区分:比如控件申明跟控件文本设置之间用空格，类中的不同方法之间空格区分等等。
+
 基本的命名法
 
 Java编程比较常见的有下面三种命名方式
@@ -32,6 +34,7 @@ com.xx.app_name.bean(或com.xx.app_name.unity)	存放app自定义的实体类
 com.xx.app_name.db)	存放app数据库操作相关的类
 com.xx.app_name.view)	存放app自定义的控件
 com.xx.app_name.adapter)	存放app所有的适配器类
+
 类命名
 
 名词，采用大驼峰命名法，尽量避免缩写，除非该缩写是众所周知的。如HTML,URL,JSON，XML等.
@@ -71,6 +74,8 @@ deleteXX()/removeXX()	删除XX数据
 updateXX()	更新XX数据
 searchXX()/findXX()/queryXX()	查找XX数据
 draw()	控件里面使用居多，例如绘制文本drawText
+
+
 变量
 
 采用小驼峰命名法。同样比较简单，但为了更好表明含义，我建议做一下的的区分
